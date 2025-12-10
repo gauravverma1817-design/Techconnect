@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Connect - Find Your Tech Guide</title>
+    <script src="https://kit.fontawesome.com/1be2e14b9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="findment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overall-page" id="overall-page">
+
+        <!-- Header Navigation -->
+        <header class="navbar" id="navbar">
+            <div class="navbar-container">
+                <div class="logo" id="logo"><i class="fa-brands fa-slack"></i> <a href="/Design thinking/Index.html">TECH CONNECT</a></div>
+                <nav class="nav-links" id="nav-links">
+                    <a href="#find-mentor" class="nav-link">Find a Mentor</a>
+                    <a href="#become-mentor" class="nav-link">Become Mentor</a>
+                    <a href="#my-account" class="nav-link" id="my-account">My Account</a>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- Main Content -->
+        <main class="container" id="main-container">
+            <!-- Page Title -->
+            <h1 class="page-title" id="page-title">Find Your Tech Guide</h1>
+            
+            <div class="content-wrapper" id="content-wrapper">
+                <!-- Filter Section -->
+                <aside class="filter-section" id="filter-section">
+                    <h3 class="filter-title">Filter</h3>
+                    
+                    <input type="text" class="filter-search" id="filter-search" placeholder="Name, Company, or Job Title">
+                    
+                    <div class="filter-options" id="filter-options">
+                        <label class="filter-checkbox">
+                            <input type="checkbox" id="tech-skill">
+                            <span>Technology/Skilevelopment</span>
+                        </label>
+                        <label class="filter-checkbox">
+                            <input type="checkbox" id="tech-focus">
+                            <span>Technology/Skill Focus</span>
+                        </label>
+                        <label class="filter-checkbox">
+                            <input type="checkbox" id="data-science">
+                        <span>Data Science</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" id="expertise-level">
+                        <span>Expertise Level</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" id="industry">
+                        <span>Industry</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" id="weekly-calls">
+                        <span>Weekly Calls</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" id="portfolio-review">
+                        <span>Portfolio Review</span>
+                    </label>
+                </div>
+                
+                <button class="apply-filters-btn" id="apply-filters">Apply Filters</button>
+            </aside>
+            
+            <!-- Mentor Profiles Section -->
+            <section class="profiles-section" id="profiles-section">
+                <!-- Featured Mentor -->
+                <div class="mentor-profile featured" id="featured-mentor">
+                    <img src="/profilelogo.jpg" alt="Jane Doe" class="mentor-image">
+                    <div class="mentor-info">
+                        <h2 class="mentor-name">Prabhat singh</h2>
+                        <p class="mentor-title">Senior Software Engineer at Google</p>
+                        <div class="mentor-skills">
+                            <span class="skill-badge python">Python</span>
+                            <span class="skill-badge aws">AWS</span>
+                        </div>
+                        <p class="mentor-bio">I specialize in scaling ML models and love helping people people be break into Data Science.</p>
+                        <div class="mentor-tags">
+                            <span class="tag">Career Growth</span>
+                            <span class="tag">Interview Prep</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mentor Grid -->
+                <div class="mentor-grid" id="mentor-grid">
+                    <!-- Mentor Card 1 -->
+                    <div class="mentor-card" id="mentor-card-1">
+                        <img src="/profilelogo.jpg" alt="Mark Chen" class="mentor-card-image">
+                        <h3 class="mentor-card-name">Krishna singh</h3>
+                        <p class="mentor-card-title">Product Manager at Meta</p>
+                        <span class="skill-badge">Findd</span>
+                        <p class="mentor-card-bio">Passionate to building saas g use cloud+ LM refine ideas!</p>
+                        <div class="mentor-card-tags">
+                            <span class="tag">Idea Growth</span>
+                            <span class="tag">Leadership Skills</span>
+                        </div>
+                        <div class="profile-btn"> 
+                            <button class="view-profile-btn" id="view-profile-1">View Profile</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Mentor Card 2 -->
+                    <div class="mentor-card" id="mentor-card-2">
+                        <img src="/profilelogo.jpg" alt="Sofia Rodriguez" class="mentor-card-image">
+                        <h3 class="mentor-card-name">Sofia</h3>
+                        <p class="mentor-card-title">Product Management UX/UI Design</p>
+                        <span class="skill-badge azure">Azure</span>
+                        <p class="mentor-card-bio">Guiding d engineers through their cloud certification.</p>
+                        <div class="mentor-card-tags">
+                            <span class="tag">Idea Validation</span>
+                            <span class="tag">Leadership Skills</span>
+                        </div>
+                        <div class="profile-btn">    
+                            <button class="view-profile-btn" id="view-profile-2">View Profile</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Mentor Card 3 -->
+                    <div class="mentor-card" id="mentor-card-3">
+                        <img src="/profilelogo.jpg" alt="Cloud Solution" class="mentor-card-image">
+                        <h3 class="mentor-card-name">Mayank</h3>
+                        <p class="mentor-card-title">Architect Architect at Microsoft</p>
+                        <p class="mentor-card-bio">Guiding engineers their justified jonn</p>
+                        <div class="mentor-card-tags">
+                            <span class="tag">Certification Prep</span>
+                        </div>
+                        <div class="profile-btn">   
+                            <button class="view-profile-btn" id="view-profile-3">View Profile</button>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- CTA Section -->
+        <section class="cta-section" id="cta-section">
+            <button class="cta-primary" id="become-mentor-btn">Join our network! Become a Mentor</button>
+            <button class="cta-secondary" id="sign-up-btn">Sign Up Today</button>
+        </section>
+        
+        <!-- Testimonial Section -->
+        <section class="testimonial-section" id="testimonial-section">
+            <div class="stat" id="stat-1">
+                <h3>Trusted by thousands</h3>
+            </div>
+            <div class="stat" id="stat-2">
+                <h3>1,500+ successful connections</h3>
+            </div>
+            <div class="testimonial" id="testimonial-1">
+                <p>"My mentor helped me land your dream job!"</p>
+                <img src="/profilelogo.jpg" alt="User" class="testimonial-image">
+            </div>
+        </section>
+     </main>
+    </div>
+    
+    <tr>
+        
+    </tr>
+</body>
+</html>
