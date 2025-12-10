@@ -1,0 +1,36 @@
+/* --- Centering Container for Classic Form --- */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ensure it takes up the full viewport height minus header/footer */
+    min-height: calc(100vh - 100px); 
+    padding: 20px;
+}
+
+/* --- Classic Card Styling (overrides form-container for centered layout) --- */
+.card-form-container {
+    background-color: var(--white);
+    max-width: 420px; /* Slightly narrower than previous forms */
+    width: 100%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* More pronounced shadow for "card" effect */
+    text-align: center;
+}
+
+.card-form-container h2 {
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.card-form-container .subtitle {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.card-form-container .form-group {
+    text-align: left; /* Align labels/inputs left within the card */
+}

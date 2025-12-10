@@ -1,0 +1,378 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D8E9F9;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #1A2B46;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.overall-page{
+    width: 95%;
+    margin: 3em auto;
+    border-radius: 12px;
+    background-color: #E9F3FD;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding-bottom: 2em; 
+}
+.navbar{
+    height: 4rem;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEFEFE;
+    padding: 0 5%; 
+}
+
+.tech-conn{
+    font-size: 1.7em;
+    font-weight: 600;
+    min-width: fit-content;
+}
+
+.tech-conn2{
+    display: flex;
+    font-weight: 400;
+}
+
+.nav-options{
+    margin-left: 1.5em; 
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+
+.login, .signup{
+    padding: 4px 0.7em;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.20);
+    color: #1A2B46;
+    transition: transform 0.2s;
+}
+
+.login{
+    background-color: #3E99E6;
+}
+
+.signup{
+    background-color: #EC8046;
+}
+.hero-section{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5%;
+}
+
+.hero-content {
+    flex: 1; 
+    min-width: 300px;
+}
+
+.hero-title{
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 0.5em;
+    display: block;
+    line-height: 1.1;
+}
+
+.hero-sec-botton{
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+    font-weight: 300;
+    color: #E9F3FD;
+}
+
+.find-ment, .become-ment{
+    font-size: 0.5em; 
+    border: none;
+    border-radius: 35px;
+    padding: 0.7em 1.4em;
+    
+}
+
+.find-ment{
+    background-color: #1B95F1;
+}
+
+.become-ment{
+    background-color: #EB7D47;
+}
+
+.hero-sec-botton a:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.brain-image{
+    background-image: url(/brain.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 400px; 
+    height: 400px; 
+    width: 40vw; 
+    flex-shrink: 0;
+}
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+    padding: 3em 5%;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.stats-option {
+    font-size: 1.5em;
+    border: 3px solid #1A2B46;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+    padding: 10px;
+}
+.section-test{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 0 5%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.reviews{
+    min-height: 180px;
+    max-width: 600px; 
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5em;
+    background-color:#F1F5FE;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    flex: 1 1 45%;
+}
+
+.r-img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(/profilelogo.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.words{
+    margin-left: 1.5em;
+    font-size: 1.1em;
+    font-weight: 450;
+    padding-top: 0; 
+}
+.alumni-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    padding: 0 5%;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.alumni-box{
+    height: 250px;
+    width: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+}
+span{
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.alumni-img{
+    background-color: #1A2B46;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(/profilelogo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.alumni-box h3 {
+    font-weight: 300;
+    margin-top: 0.5em;
+    padding: 0 10px; /* Add padding for text */
+}
+
+.alumni-box span{
+    font-weight: 200;
+    font-size: 0.8em; /* Adjusted font size for better readability */
+    display: block; /* Ensure it takes a new line */
+}
+.footer-line{
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 2em;
+}
+.img1{
+    background-image: url(/imag1.jpg);
+    background-size: contain;
+}
+.img2{
+    background-image: url(/imag2.jpg);
+    background-size: contain;
+}
+.img3{
+    background-image: url(/imag3.jpg);
+    background-size: contain;
+}
+.img4{
+    background-image: url(/imag4.jpg);
+    background-size: contain;
+}
+@media screen and (max-width: 768px) {
+
+    .overall-page{
+        margin: 1em auto;
+        width: 100%;
+        border-radius: 0;
+    }
+    .navbar{
+        height: auto;
+        flex-direction: column;
+        padding: 1em 5%;
+    }
+    
+    .tech-conn{
+        margin-left: 0;
+        margin-bottom: 0.5em;
+    }
+    
+    .tech-conn2{
+        margin-right: 0;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .extra-info{
+        display: none; 
+    }
+    
+    .login, .signup{
+        font-size: 0.9em;
+    }
+    .hero-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        order: 2;
+    }
+    
+    .brain-image{
+        order: 1;
+        width: 80vw;
+        height: 80vw;
+        max-width: 300px;
+        max-height: 300px;
+        margin: 6em auto 1.5em auto;
+
+    }
+
+    .hero-title{
+        font-size: 3em;
+        margin-top: 0.5em;
+        margin-left: 0;
+    }
+
+    .hero-sec-botton{
+        justify-content: center;
+        gap: 0.7em;
+    }
+    .find-ment, .become-ment{
+        font-size: 0.5em;
+    }
+    .stats {
+        justify-content: center;
+    }
+
+    .stats-option {
+        height: 150px; 
+        width: 150px;
+        font-size: 1.2em;
+    }
+    .section-test{
+        font-size: 2em;
+    }
+
+    .testimonials{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews{
+        width: 90%;
+        flex: 1 1 100%;
+        min-height: 120px;
+    }
+
+    .r-img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .words{
+        font-size: 1em;
+        margin-left: 1em;
+    }
+    .alumni-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .alumni-box{
+        width: 80%;
+        max-width: 300px;
+    }
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the TechConnect Community</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1be2e14b9d.js" crossorigin="anonymous"></script>
+    
+    <style>
+        :root {
+            --primary-color: #4A90E2;
+            --light-bg: #F0F8FF;
+            --text-color: #333;
+            --white: #ffffff;
+            --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .split-form-wrapper {
+            display: flex;
+            width: 90%;
+            max-width: 1000px;
+            min-height: 650px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        .intro-panel {
+            flex: 1;
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-width: 350px;
+        }
+
+        .intro-panel h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            font-weight: 700;
+        }
+
+        .intro-panel p {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .intro-panel .login-cta {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: var(--white);
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            border: 2px solid var(--white);
+            transition: background-color 0.3s;
+        }
+
+        .intro-panel .login-cta:hover {
+            background-color: var(--white);
+            color: var(--primary-color);
+        }
+        .form-panel {
+            flex: 1.5;
+            background-color: var(--white);
+            padding: 50px 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .form-panel h2 {
+            font-size: 2.5rem;
+            color: var(--text-color);
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            background-color: #f8f8f8;
+        }
+        .select-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .form-label-only {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+            color: #777;
+            font-size: 1rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+
+        .form-submit-btn {
+            width: 100%;
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .form-submit-btn:hover {
+            background-color: #3c78c0;
+        }
+        .social-login {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .social-login p {
+            color: #999;
+            margin-bottom: 15px;
+        }
+
+        .social-icons a {
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            margin: 0 5px;
+            text-decoration: none;
+        }
+
+        .social-icons .fa-facebook-f { background-color: #3b5998; }
+        .social-icons .fa-google-plus-g { background-color: #db4437; }
+        .social-icons .fa-linkedin-in { background-color: #0e76a8; }
+        @media (max-width: 900px) {
+            .split-form-wrapper {
+                flex-direction: column;
+                min-height: auto;
+                width: 95%;
+            }
+
+            .intro-panel {
+                padding: 40px 20px;
+                min-height: 250px;
+            }
+            
+            .intro-panel h2 {
+                font-size: 1.8rem;
+                margin-bottom: 10px;
+            }
+
+            .intro-panel p {
+                font-size: 1rem;
+                margin-bottom: 20px;
+            }
+
+            .form-panel {
+                padding: 30px 25px;
+            }
+
+            .form-panel h2 {
+                margin-top: 10px;
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="split-form-wrapper">
+        <div class="intro-panel">
+            <h2>Connect with your future. Mentor the next generation.</h2>
+            <p>Bridging the gap between ambitious students and experienced alumni.</p>
+            <a href="login.html" class="login-cta">Already have an account? Log In.</a>
+        </div>
+        <div class="form-panel">
+            <h2>REGISTER TO CONNECT</h2>
+            <form action="/signup" method="POST">
+                <div class="form-group">
+                    <input type="text" id="full_name" name="full_name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="uni_email" name="uni_email" placeholder="University Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="major" name="major" placeholder="Major / Program of Study" required>
+                </div>
+                <div class="form-group">
+                     <select id="year" name="year" required>
+                        <option value="" disabled selected>Current Year of Study</option>
+                        <option value="1">First Year</option>
+                        <option value="2">Second Year</option>
+                        <option value="3">Third Year</option>
+                        <option value="4">Fourth Year</option>
+                        <option value="5+">Postgraduate / Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="form-submit-btn">Sign Up</button>
+            </form>
+            <div class="social-login">
+                <p>or signup with</p>
+                <div class="social-icons">
+                    <a href="#" title="Sign up with Facebook"><i class="fa-brands fa-square-facebook"></i>
+                    <a href="#" title="Sign up with Google"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" title="Sign up with LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
