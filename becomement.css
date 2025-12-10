@@ -1,0 +1,161 @@
+/* --- Global Variables & Reset (to match theme) --- */
+:root {
+    /* Color Palette (Inferred from modern tech aesthetic) */
+    --primary-color: #3b82f6; /* Bright Blue Accent */
+    --text-dark: #1f2937;    /* Deep Slate Gray */
+    --text-light: #ffffff;   /* White */
+    --bg-light: #f9fafb;     /* Very Light Gray Background for body */
+    --bg-dark: #1f2937;      /* Dark Header/Footer Background */
+    --border-color: #d1d5db; /* Light Gray Border */
+    --font-family: 'Poppins', sans-serif; /* Recommended modern font, use your actual site font */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #D8E9F9;
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: var(--text-light);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.95em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer {
+    background-color: #FEFEFE;
+    color: #1A2B46;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+.mentor-signup-page {
+    display: flex;
+    justify-content: center;
+    padding: 40px 5%;
+}
+
+.signup-container {
+    background-color: #E9F3FD;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 650px;
+}
+
+.signup-container h1 {
+    color: var(--primary-color);
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.signup-container .subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.mentor-form .form-group {
+    margin-bottom: 20px;
+}
+
+.mentor-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text-dark);
+}
+.mentor-form input[type="text"],
+.mentor-form input[type="email"],
+.mentor-form input[type="number"],
+.mentor-form select,
+.mentor-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.mentor-form input:focus,
+.mentor-form select:focus,
+.mentor-form textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    outline: none;
+}
+
+.mentor-form textarea {
+    resize: vertical;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    accent-color: var(--primary-color);
+}
+
+.checkbox-group label a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.checkbox-group label a:hover {
+    text-decoration: underline;
+}
+.cta-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cta-button:hover {
+    background-color: #2563eb;
+}
+
+.cta-button:active {
+    transform: translateY(1px);
+}
