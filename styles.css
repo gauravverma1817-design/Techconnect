@@ -187,7 +187,7 @@ a{
     align-items: center;
     padding: 1.5em;
     background-color:#F1F5FE;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     flex: 1 1 45%;
 }
@@ -405,6 +405,7 @@ span{
     }
 
 }
+
 
 
 
