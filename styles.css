@@ -316,7 +316,7 @@ span{
     }
     
     .login, .signup{
-        font-size: 0.9em;
+        font-size: 1em;
     }
     .hero-section{
         flex-direction: column;
@@ -395,5 +395,6 @@ span{
     }
 
 }
+
 
 
