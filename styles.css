@@ -102,6 +102,10 @@ a{
     margin-top: 1em;
     font-weight: 300;
     color: #E9F3FD;
+    
+}
+.hero-sec-botton a{
+    border-radius: 35px;
 }
 
 .find-ment, .become-ment{
@@ -383,3 +387,4 @@ span{
     }
 
 }
+
