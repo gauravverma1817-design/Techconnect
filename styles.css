@@ -191,6 +191,16 @@ a{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     flex: 1 1 45%;
 }
+.review1{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.review2{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
 
 .r-img{
     height: 80px;
@@ -213,9 +223,9 @@ a{
 
 .words{
     margin-left: 1.5em;
-    font-size: 1.1em;
-    font-weight: 450;
-    padding-top: 0; 
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 0;
 }
 .alumni-container{
     display: flex;
@@ -395,6 +405,7 @@ span{
     }
 
 }
+
 
 
 
