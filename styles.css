@@ -202,6 +202,14 @@ a{
     background-position: center;
     flex-shrink: 0;
 }
+.test1{
+    background-image: url(/test1.jpeg);
+    background-size: contain;
+}
+.test2{
+    background-image: url(/test2.jpeg);
+    background-size: contain;
+}
 
 .words{
     margin-left: 1.5em;
@@ -387,4 +395,5 @@ span{
     }
 
 }
+
 
