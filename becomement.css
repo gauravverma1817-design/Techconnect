@@ -1,13 +1,12 @@
-/* --- Global Variables & Reset (to match theme) --- */
+
 :root {
-    /* Color Palette (Inferred from modern tech aesthetic) */
-    --primary-color: #3b82f6; /* Bright Blue Accent */
-    --text-dark: #1f2937;    /* Deep Slate Gray */
-    --text-light: #ffffff;   /* White */
-    --bg-light: #f9fafb;     /* Very Light Gray Background for body */
-    --bg-dark: #1f2937;      /* Dark Header/Footer Background */
-    --border-color: #d1d5db; /* Light Gray Border */
-    --font-family: 'Poppins', sans-serif; /* Recommended modern font, use your actual site font */
+    --primary-color: #3b82f6;
+    --text-dark: #1f2937;  
+    --text-light: #ffffff;
+    --bg-light: #f9fafb; 
+    --bg-dark: #1f2937; 
+    --border-color: #d1d5db;
+    --font-family: 'Poppins', sans-serif;
 }
 
 * {
@@ -158,4 +157,5 @@ footer {
 
 .cta-button:active {
     transform: translateY(1px);
+
 }
