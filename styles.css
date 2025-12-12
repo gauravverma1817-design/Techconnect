@@ -355,7 +355,7 @@ span{
 
     .hero-sec-botton{
         justify-content: center;
-        gap: 0.7em;
+        gap: 0.5em;
         height: 30px;
         width: 350px;
     }
@@ -407,6 +407,7 @@ span{
     }
 
 }
+
 
 
 
