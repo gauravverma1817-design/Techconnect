@@ -135,8 +135,8 @@ a{
     background-image: url(/brain.png);
     background-repeat: no-repeat;
     background-size: contain;
-    max-width: 400px; 
-    height: 400px; 
+    max-width: 500px; 
+    height: 350px; 
     width: 40vw; 
     flex-shrink: 0;
 }
@@ -405,6 +405,7 @@ span{
     }
 
 }
+
 
 
 
