@@ -356,7 +356,7 @@ span{
     .hero-sec-botton{
         justify-content: center;
         gap: 0.7em;
-        height: 50px;
+        height: 40px;
         width: 350px;
     }
     .find-ment, .become-ment{
@@ -407,6 +407,7 @@ span{
     }
 
 }
+
 
 
 
