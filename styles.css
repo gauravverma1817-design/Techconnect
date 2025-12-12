@@ -356,6 +356,8 @@ span{
     .hero-sec-botton{
         justify-content: center;
         gap: 0.7em;
+        height: 50px;
+        width: 400px;
     }
     .find-ment, .become-ment{
         font-size: 0.5em;
@@ -405,6 +407,7 @@ span{
     }
 
 }
+
 
 
 
